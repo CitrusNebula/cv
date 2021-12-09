@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    line-height: 2;;
+    font-size: 4rem;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive; 
+}
+h2{
+    font-weight: normal;
+    color: #b44336;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    color: #526a83;
+    ;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    border: 1px solid;
+    border-radius: 10px;
+    color: pink;
+}
+
+.top-container{
+    background-color: #ffdab9;
+    position: relative;
+    padding-top: 200px;
+}
+
+
+.skill-row{
+    width: 30%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+
+.tiffanypic{
+    border-radius: 50%;
+    height: 200px;
+}
+.notespic{
+    margin-right: 30px;
+    margin-bottom: 200px;
+    float: left;
+    height: 160px;
+    clear: bottom;
+}
+.briefcase{
+    margin-left: 30px;
+    margin-bottom: 15px;
+    float: right;
+    height: 160px;
+    clear: bottom;
+}
+.talking{
+    height: 160px;
+}
+
+.toplight{
+    height: 130px;
+    position: absolute;
+    top: 40px;
+    right: 650px;
+}
+.bottomlight{
+    height: 130px;
+    position: absolute;
+    top: 40px;
+    left: 650px;
+    transform: rotateY(180deg);
+
+}
+.contact-me{
+    margin-bottom: 20px;
+}
+.contact-me button{
+    background-color: pink;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+.bottom-container{
+    background-color: #bc8f8f;
+
+}
+.footer-link{
+    display: inline-block;
+    padding: 20px;
+    font-size: 1.1rem;
+    color: white;
+
+}
+
